@@ -17,6 +17,7 @@ app.use(cors({
     process.env.CLIENT_URL || 'http://localhost:3000',
     'http://localhost:3000',
     'http://127.0.0.1:3000',
+    'https://travel-planner-gen-ai.vercel.app',
   ],
   credentials: true,
 }));
